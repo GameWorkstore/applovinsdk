@@ -677,7 +677,7 @@ namespace AppLovinMax.Scripts.IntegrationManager.Editor
             // Check if the user has moved the Plugin and if new assets have been imported to the default directory.
             if (DefaultPluginExportPath.Equals(pluginDir) || !Directory.Exists(DefaultPluginExportPath)) return false;
 
-            MovePluginFiles(DefaultPluginExportPath, pluginDir, isPluginOutsideAssetsDirectory);
+            //MovePluginFiles(DefaultPluginExportPath, pluginDir, isPluginOutsideAssetsDirectory);
             if (!isPluginOutsideAssetsDirectory)
             {
                 FileUtil.DeleteFileOrDirectory(DefaultPluginExportPath + ".meta");
