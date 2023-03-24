@@ -1,0 +1,16 @@
+{
+    "name": "com.gameworkstore.applovinsdk",
+    "version": "5.8.2",
+    "displayName": "GameWorkstore AppLovin SDK",
+    "description": "AppLovin SDK for Unity.",
+    "unity": "2022.1",
+    "icon": ".icon.png",
+    "keywords": [ "applovin", "sdk" ],
+    "author": {
+        "name": "Game Workstore",
+        "email": "contact@gameworkstore.com",
+        "url": "https://gameworkstore.com"
+    },
+    "dependencies": {
+    }
+}
